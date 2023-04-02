@@ -147,23 +147,23 @@ a {
 
 /* NAVBAR */
 
-nav{
+.container nav{
   width: 250px;
   font-size: 24px;
   font-weight: 500;
   font-family: Axiforma;
 }
 
-nav ul li{
+.container nav ul li{
   cursor: pointer;
   
 }
 
-nav ul li.active{
+.container nav ul li.active{
   font-weight: 500;
 }
 
-nav ul li .marker{
+.container nav ul li .marker{
   width: 42px;
   height: 42px;
   border: 1px solid #333533;
@@ -175,18 +175,18 @@ nav ul li .marker{
   
 }
 
-nav ul li:hover .marker,
-nav ul li.active .marker{
+.container nav ul li:hover .marker,
+.container nav ul li.active .marker{
   background-color: #333533;
   font-size: 22px;
 }
 
-nav ul li:hover .marker i,
-nav ul li.active .marker i{
+.container nav ul li:hover .marker i,
+.container nav ul li.active .marker i{
   color: #ffd100;
 }
 
-nav ul li:not(:last-child):after{
+.container nav ul li:not(:last-child):after{
   content: "";
   display: block;
   height: 55px;
@@ -391,4 +391,8 @@ nav ul li:not(:last-child):after{
 .project .buttons a:last-child:hover{
   color: #f5f5f5;
   background-color: #333533;
+}
+
+.mobile-nav{
+  display: none;
 }
