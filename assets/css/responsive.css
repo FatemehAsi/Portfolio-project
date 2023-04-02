@@ -1,21 +1,9 @@
-/* Extra small devices (phones, 600px and down) */
-/* @media only screen and (max-width: 600px) {} */
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-/* @media only screen and (min-width: 600px){} */
-
-/* Medium devices (landscape tablets, 768px and up) */
-/* @media only screen and (min-width: 798px){} */
-
-/* Large devices (laptop/desktop, 992px and up) */
 @media only screen and (max-width: 992px){
 
     body{
         background-color: #fafafa;
         font-size: 16px;
         width: 100%;
-        /* overflow-x: hidden; */
-        /* overflow-y: auto; */
     }
 
     nav{
@@ -143,6 +131,3 @@
     }
 
 }
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-/* @media only screen and (min-width: 1200px){} */
